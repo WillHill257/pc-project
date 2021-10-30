@@ -24,11 +24,13 @@ make
 echo "Running serial"
 rm -f $serialFile
 ./serial $rows $columns $seed $generation > $serialFile
+echo "Done serial\n"
 
 # run the parallel version, pipe the output to the relevant file
 echo "Running parallel"
 rm -f $parallelFile
 mpirun -np $numProcs ./parallel $rows $columns $seed $generation > $parallelFile
+echo "Done parallel\n"
 
 # compare the serial and parallel outputs to VERIFY
 DIFF=$(diff $serialFile $parallelFile)

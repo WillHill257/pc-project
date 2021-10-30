@@ -10,6 +10,9 @@
 #define cursup "\033[A"
 #define curshome "\033[0;0H"
 
+// define block to print
+#define BLOCK "\u2593"
+
 // define colours so easier to see movement of live cells
 #define KRED "\x1B[31m"
 #define KGRN "\x1B[32m"
@@ -28,14 +31,24 @@ int convertToIndex(const int row, const int column) {
 }
 
 // print the 2d board
-void printBoard(const vector<bool> &board) {
+void printVisualiser(const vector<bool> &board) {
   printf(curshome);
   for (int i = 0; i < board.size(); i++) {
     if (board[i]) {
-      printf(KGRN "1" RESET);
+      printf(KGRN BLOCK RESET);
     } else {
-      printf(KRED "0" RESET);
+      printf(KRED BLOCK RESET);
     }
+    if ((i + 1) % totalColumns == 0) {
+      printf("\n");
+    }
+  }
+}
+
+// print the 2d board
+void printBoard(const vector<bool> &board) {
+  for (int i = 0; i < board.size(); i++) {
+    printf("%d", board[i] == true);
     if ((i + 1) % totalColumns == 0) {
       printf("\n");
     }
@@ -115,6 +128,9 @@ int main(int argc, char *argv[]) {
     board[i] = value;
   }
 
+  // print the initial board
+  printBoard(board);
+
   // run the game for a number of iterations
   for (int iter = 0; iter < generation; iter++) {
     // determine the next generation of the board
@@ -129,10 +145,14 @@ int main(int argc, char *argv[]) {
     board.swap(nextGeneration);
 
     if (visualise) {
-      printBoard(board);
+      printVisualiser(board);
       this_thread::sleep_for(chrono::milliseconds(500));
     }
   }
+
+  // print the final board
+  printf("\n");
+  printBoard(board);
 
   return 0;
 }
