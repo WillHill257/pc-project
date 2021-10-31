@@ -17,8 +17,10 @@ serialFile="serial-output.txt"
 parallelFile="parallel-output.txt"
 
 # make the serial and parallel versions
+echo "Making executables"
 make clean
 make
+echo "Done making\n"
 
 # run the serial version, pipe the output to the relevant file
 echo "Running serial"

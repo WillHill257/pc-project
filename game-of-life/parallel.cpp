@@ -52,7 +52,7 @@ bool cellNextValue(vector<int> &board, vector<int> &prevRow, vector<int> &nextRo
       // get the neighbour's row and col
       // mod to achieve wraparound
       int r = (i + row);  // don't mod because the wraparound is to other processes
-      int c = (j + col) % totalColumns;
+      int c = (j + col + totalColumns) % totalColumns;
 
       // keep track of the number of live neighbours
       if (r < 0) {
