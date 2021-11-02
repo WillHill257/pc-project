@@ -4,7 +4,7 @@ p2 = parallel
 all: ${p1} ${p2}
 
 ${p1}: ${p1}.cpp
-	@g++ ${p1}.cpp -o ${p1}
+	@g++ -std=c++11 ${p1}.cpp -o ${p1}
 
 ${p2}: ${p2}.cpp
 	@mpicxx -std=c++11 ${p2}.cpp -o ${p2}

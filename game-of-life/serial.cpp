@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include <chrono>
+#include <fstream>
 #include <string>
 #include <thread>
 #include <vector>
@@ -21,6 +22,9 @@
 #define RESET "\033[0m"
 
 using namespace std;
+
+const string outputFileName = "serial-output.txt";
+const int averageIterations = 5;
 
 int totalRows;
 int totalColumns;
@@ -46,11 +50,13 @@ void printVisualiser(const vector<bool> &board) {
 }
 
 // print the 2d board
-void printBoard(const vector<bool> &board) {
+void printBoard(ofstream &file, const vector<bool> &board) {
   for (int i = 0; i < board.size(); i++) {
-    printf("%d", board[i] == true);
+    // printf("%d", board[i] == true);
+    file << board[i];
     if ((i + 1) % totalColumns == 0) {
-      printf("\n");
+      // printf("\n");
+      file << "\n";
     }
   }
 }
@@ -108,6 +114,9 @@ int main(int argc, char *argv[]) {
     return 0;
   }
 
+  // Create and open a text file
+  ofstream outputFile(outputFileName);
+
   // get the arguments
   totalRows = atoi(argv[1]);
   totalColumns = atoi(argv[2]);
@@ -116,43 +125,57 @@ int main(int argc, char *argv[]) {
 
   bool visualise = argc == 6 ? true : false;
 
-  // create our board
-  vector<bool> board, nextGeneration;
-  board.resize(totalRows * totalColumns);
-  nextGeneration.resize(totalRows * totalColumns);
+  u_int64_t runTime = 0;
 
-  // initialise the board using the seed
-  srand(seed);
-  for (int i = 0; i < board.size(); i++) {
-    bool value = ((double)rand() / RAND_MAX) >= 0.5 ? true : false;
-    board[i] = value;
-  }
+  for (int _ = 0; _ < averageIterations; _++) {
+    // create our board
+    vector<bool> board, nextGeneration;
+    board.resize(totalRows * totalColumns);
+    nextGeneration.resize(totalRows * totalColumns);
 
-  // print the initial board
-  printBoard(board);
+    // initialise the board using the seed
+    srand(seed);
+    for (int i = 0; i < board.size(); i++) {
+      bool value = ((double)rand() / RAND_MAX) >= 0.5 ? true : false;
+      board[i] = value;
+    }
 
-  // run the game for a number of iterations
-  for (int iter = 0; iter < generation; iter++) {
-    // determine the next generation of the board
-    for (int row = 0; row < totalRows; row++) {
-      for (int col = 0; col < totalColumns; col++) {
-        // figure out if this cell should be alive/dead
-        nextGeneration[convertToIndex(row, col)] = cellNextValue(board, row, col);
+    // print the initial board
+    outputFile << "\n";
+    printBoard(outputFile, board);
+
+    auto startTime = chrono::high_resolution_clock::now();
+    // run the game for a number of iterations
+    for (int iter = 0; iter < generation; iter++) {
+      // determine the next generation of the board
+      for (int row = 0; row < totalRows; row++) {
+        for (int col = 0; col < totalColumns; col++) {
+          // figure out if this cell should be alive/dead
+          nextGeneration[convertToIndex(row, col)] = cellNextValue(board, row, col);
+        }
+      }
+
+      // have determined the next generation of the board - make it active
+      board.swap(nextGeneration);
+
+      if (visualise) {
+        printVisualiser(board);
+        this_thread::sleep_for(chrono::milliseconds(500));
       }
     }
+    auto endTime = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::milliseconds>(endTime - startTime);
+    runTime += duration.count();
 
-    // have determined the next generation of the board - make it active
-    board.swap(nextGeneration);
-
-    if (visualise) {
-      printVisualiser(board);
-      this_thread::sleep_for(chrono::milliseconds(500));
-    }
+    // print the final board
+    outputFile << "\n";
+    printBoard(outputFile, board);
   }
 
-  // print the final board
-  printf("\n");
-  printBoard(board);
+  printf("Serial average run time: %.2fms\n", (double)runTime / averageIterations);
+
+  // close the file
+  outputFile.close();
 
   return 0;
 }

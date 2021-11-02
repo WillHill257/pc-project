@@ -1,7 +1,9 @@
+
 # make sure we have the correct arguments
 if [ "$#" != 5 ]
 then
-  echo "We will specify the size of the game board, and provide a random seed that will be used to generate the same board for the serial and parallel versions. We will also need to specify how many generations to run the game for (-1 for indefinite):\n"
+  echo "We will specify the size of the game board, and provide a random seed that will be used to generate the same board for the serial and parallel versions. We will also need to specify how many generations to run the game for (-1 for indefinite):"
+  echo
   echo "Usage: ${0} <rows> <columns> <seed> <generation> <number of processes>"
   exit
 fi
@@ -20,19 +22,22 @@ parallelFile="parallel-output.txt"
 echo "Making executables"
 make clean
 make
-echo "Done making\n"
+echo "Done making"
+echo
 
 # run the serial version, pipe the output to the relevant file
 echo "Running serial"
 rm -f $serialFile
-./serial $rows $columns $seed $generation > $serialFile
-echo "Done serial\n"
+./serial $rows $columns $seed $generation 
+echo "Done serial"
+echo
 
 # run the parallel version, pipe the output to the relevant file
 echo "Running parallel"
 rm -f $parallelFile
-mpirun -np $numProcs ./parallel $rows $columns $seed $generation > $parallelFile
-echo "Done parallel\n"
+mpirun -np $numProcs ./parallel $rows $columns $seed $generation 
+echo "Done parallel"
+echo
 
 # compare the serial and parallel outputs to VERIFY
 DIFF=$(diff $serialFile $parallelFile)

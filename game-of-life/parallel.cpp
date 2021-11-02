@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <chrono>
 #include <cmath>
+#include <fstream>
 #include <string>
 #include <vector>
 
@@ -17,6 +19,9 @@ ARCHITECTURE:
 
 */
 
+const string outputFileName = "parallel-output.txt";
+const int averageIterations = 5;
+
 int totalRows;
 int totalColumns;
 int localRows;
@@ -27,11 +32,11 @@ int convertToIndex(const int row, const int column) {
 }
 
 // print the 2d board
-void printBoard(const vector<int> &board) {
+void printBoard(ofstream &file, const vector<int> &board) {
   for (int i = 0; i < board.size(); i++) {
-    printf("%d", board[i]);
+    file << board[i];
     if ((i + 1) % totalColumns == 0) {
-      printf("\n");
+      file << "\n";
     }
   }
 }
@@ -154,64 +159,87 @@ int main(int argc, char *argv[]) {
     return 0;
   }
 
+  // Create and open a text file
+  ofstream outputFile;
+  if (rank == 0) {
+    outputFile.open(outputFileName);
+  }
+
   // get the arguments
   totalRows = atoi(argv[1]);
   totalColumns = atoi(argv[2]);
   int seed = atoi(argv[3]);
   int generations = atoi(argv[4]);
 
-  // first process will generate the game board and then distribute it
-  vector<int> board, localBoard;
-  if (rank == 0) {
-    board.resize(totalRows * totalColumns);
+  u_int64_t runTime = 0;
 
-    // initialise the board using the seed
-    srand(seed);
-    for (int i = 0; i < board.size(); i++) {
-      int value = ((double)rand() / RAND_MAX) >= 0.5 ? 1 : 0;
-      board[i] = value;
+  for (int _ = 0; _ < averageIterations; _++) {
+    // first process will generate the game board and then distribute it
+    vector<int> board, localBoard;
+    if (rank == 0) {
+      board.resize(totalRows * totalColumns);
+
+      // initialise the board using the seed
+      srand(seed);
+      for (int i = 0; i < board.size(); i++) {
+        int value = ((double)rand() / RAND_MAX) >= 0.5 ? 1 : 0;
+        board[i] = value;
+      }
+
+      // print the initial board
+      outputFile << "\n";
+      printBoard(outputFile, board);
     }
 
-    // print the initial board
-    printBoard(board);
+    auto startTime = chrono::high_resolution_clock::now();
+
+    // determine the number of rows per process
+    localRows = round((double)totalRows / numProcs);
+    int lastRows = totalRows - localRows * (numProcs - 1);
+
+    // distribute the rows
+    // determine the number of elements to send to each process, and the offset in the vector
+    int sendcounts[numProcs];
+    int displs[numProcs];
+    sendcounts[0] = localRows * totalColumns;
+    displs[0] = 0;
+    for (int i = 1; i < numProcs; i++) {
+      sendcounts[i] = localRows * totalColumns;
+      displs[i] = displs[i - 1] + totalColumns * localRows;
+    }
+    sendcounts[numProcs - 1] = lastRows * totalColumns;
+
+    // the last process picks up any straggler rows
+    if (rank == numProcs - 1) {
+      localRows = lastRows;
+    }
+
+    // resize the local boards to hold the appropriate number of cells
+    localBoard.resize(localRows * totalColumns);
+
+    // distribute the rows
+    MPI_Scatterv(board.data(), sendcounts, displs, MPI_INT, localBoard.data(), localRows * totalColumns, MPI_INT, 0, MPI_COMM_WORLD);
+
+    // play the game
+    playGame(rank, numProcs, generations, localBoard);
+
+    // gather the localBoards
+    MPI_Gatherv(localBoard.data(), localRows * totalColumns, MPI_INT, board.data(), sendcounts, displs, MPI_INT, 0, MPI_COMM_WORLD);
+
+    auto endTime = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::milliseconds>(endTime - startTime);
+    runTime += duration.count();
+
+    if (rank == 0) {
+      // print the final board
+      outputFile << "\n";
+      printBoard(outputFile, board);
+    }
   }
-
-  // determine the number of rows per process
-  localRows = round((double)totalRows / numProcs);
-  int lastRows = totalRows - localRows * (numProcs - 1);
-
-  // distribute the rows
-  // determine the number of elements to send to each process, and the offset in the vector
-  int sendcounts[numProcs];
-  int displs[numProcs];
-  sendcounts[0] = localRows * totalColumns;
-  displs[0] = 0;
-  for (int i = 1; i < numProcs; i++) {
-    sendcounts[i] = localRows * totalColumns;
-    displs[i] = displs[i - 1] + totalColumns * localRows;
-  }
-  sendcounts[numProcs - 1] = lastRows * totalColumns;
-
-  // the last process picks up any straggler rows
-  if (rank == numProcs - 1) {
-    localRows = lastRows;
-  }
-
-  // resize the local boards to hold the appropriate number of cells
-  localBoard.resize(localRows * totalColumns);
-
-  // distribute the rows
-  MPI_Scatterv(board.data(), sendcounts, displs, MPI_INT, localBoard.data(), localRows * totalColumns, MPI_INT, 0, MPI_COMM_WORLD);
-
-  // play the game
-  playGame(rank, numProcs, generations, localBoard);
-
-  // gather the localBoards
-  MPI_Gatherv(localBoard.data(), localRows * totalColumns, MPI_INT, board.data(), sendcounts, displs, MPI_INT, 0, MPI_COMM_WORLD);
 
   if (rank == 0) {
-    printf("\n");
-    printBoard(board);
+    printf("Parallel average run time: %.2fms\n", (double)runTime / averageIterations);
+    outputFile.close();
   }
 
   // gracefully exit the mpi environment
