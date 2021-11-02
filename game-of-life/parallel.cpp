@@ -246,19 +246,3 @@ int main(int argc, char *argv[]) {
   MPI_Finalize();
   return 0;
 }
-
-// if (rank == 0) {
-//   string counts, displacements;
-//   for (int i = 0; i < numProcs; i++) {
-//     counts += to_string(sendcounts[i]) + ", ";
-//     displacements += to_string(displs[i]) + ", ";
-//   }
-//   printf("Sendcounts = {%s}\nDisplacements = {%s}\n", counts.c_str(), displacements.c_str());
-// }
-
-// string out = "Process " + to_string(rank) + ":\n";
-// for (int i = 0; i < localBoard.size(); i++) {
-//   out += to_string(localBoard[i]);
-//   if ((i + 1) % totalColumns == 0) out += "\n";
-// }
-// printf("%s\n", out.c_str());
