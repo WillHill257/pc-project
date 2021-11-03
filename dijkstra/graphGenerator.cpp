@@ -13,7 +13,8 @@
 using namespace std;
 
 const int minNum = 1;
-const int maxNum = 9;
+const int maxNum = 10000;
+const string filepath = "graphs/";
 
 int getRandomElement(unordered_set<int> &theSet, bool removeElement) {
   // determine the position in the set of the element to choose
@@ -121,16 +122,16 @@ void toString(vector<vector<int>> &adjacencyMatrix) {
 
 int main(int argc, char *argv[]) {
   if (argc != 4) {
-    cout << "Usage: " << argv[0] << " <number of vertices> <probability of edge appearing> <output filepath>" << endl;
+    cout << "Usage: " << argv[0] << " <number of vertices> <probability of edge appearing> <output filename>" << endl;
     return 0;
   }
 
   const int numVertices = atoi(argv[1]);
   const double probability = atof(argv[2]);
-  string filepath(argv[3]);
+  string filename(argv[3]);
 
   // create the adjacency matrix
-  vector<vector<int>> adjacencyMatrix(numVertices, vector<int>(numVertices));
+  vector<vector<int>> adjacencyMatrix(numVertices, vector<int>(numVertices, 0));
 
   // generate the random graph
   srand(time(0));
@@ -138,19 +139,23 @@ int main(int argc, char *argv[]) {
   // toString(adjacencyMatrix);
 
   // write the graph to the text file
-  ofstream Graph(filepath);
+  ofstream Graph(filepath + filename);
 
-  Graph << numVertices << "\n";
+  Graph << "Density: " << probability << "\n"
+        << numVertices << "\n";
 
   for (int i = 0; i < adjacencyMatrix.size(); i++) {
     for (int j = 0; j < adjacencyMatrix[i].size(); j++) {
       Graph << adjacencyMatrix[i][j];
-      if (j != adjacencyMatrix[i].size() - 1)
+      if (j != adjacencyMatrix[i].size() - 1) {
         Graph << " ";
+      }
     }
-    if (i != adjacencyMatrix.size() - 1)
+    if (i != adjacencyMatrix.size() - 1) {
       Graph << "\n";
+    }
   }
 
+  Graph.close();
   return 0;
 }

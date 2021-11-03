@@ -11,9 +11,14 @@
 - Parallel (OpenMP) Implementation: `omp.cpp`
 - Run Script: `run.sh`
 - Slurm Job Script: `dijkstra.slurm`
-- Serial Output File (shortest path vector): `serial-output.txt`
-- Parallel (MPI) Output File (sortest path vector): `mpi-output.txt`
-- Parallel (OpenMP) Output File (sortest path vector): `omp-output.txt`
+- Input Graph Folder (of an adjacency matrix representation): `graphs/`
+  - graph files (e.g. `one.txt`, `two.txt`)
+- Serial Output Folder (of shortest path vectors): `serial-output/`
+  - filenames will be the input graph filename, with the starting node as the prefix (e.g. `20-one.txt`)
+- Parallel (MPI) Output Folder (sortest path vectors): `mpi-output/`
+  - filenames will be the input graph filename, with the starting node as the prefix (e.g. `20-one.txt`)
+- Parallel (OpenMP) Output Folder (sortest path vectos): `omp-output/`
+  - filenames will be the input graph filename, with the starting node as the prefix (e.g. `20-one.txt`)
 
 _Note: the output files will be generated when you run the job script_
 
