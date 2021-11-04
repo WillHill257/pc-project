@@ -1,0 +1,2028 @@
+----------------------------------------------------------------
+DATE: Thu Nov 4 16:10:43 SAST 2021
+Job is running on nodes mscluster39
+----------------------------------------------------------------
+SLURM: sbatch is running mscluster0.ms.wits.ac.za
+SLURM: job ID is 149384
+SLURM: submit directory is /home-mscluster/whill/pc/project/game-of-life
+SLURM: number of nodes allocated is 1
+SLURM: job name is game-of-life
+----------------------------------------------------------------
+
+---------------------- Board <rows, columns>: 400 x 400 ----------------------
+Seed: 160000
+Serial average run time: 1549.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 245.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 124.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 84.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 62.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 52.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 59.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 74.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 63.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 64.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 52.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 400 x 800 ----------------------
+Seed: 320000
+Serial average run time: 3094.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 489.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 249.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 166.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 124.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 112.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 109.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 144.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 124.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 113.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 103.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 400 x 1600 ----------------------
+Seed: 640000
+Serial average run time: 6180.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 980.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 497.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 334.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 256.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 214.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 205.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 288.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 250.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 258.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 203.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 400 x 3200 ----------------------
+Seed: 1280000
+Serial average run time: 12278.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 1961.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 1001.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 668.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 502.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 422.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 405.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 561.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 496.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 523.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 405.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 400 x 4800 ----------------------
+Seed: 1920000
+Serial average run time: 18521.00ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 2941.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 1495.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 999.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 752.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 637.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 611.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 856.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 755.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 784.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 608.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 400 x 6400 ----------------------
+Seed: 2560000
+Serial average run time: 24863.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 3924.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 2004.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1343.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1004.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 846.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 822.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1185.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1023.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1036.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 846.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 400 ----------------------
+Seed: 320000
+Serial average run time: 3093.00ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 489.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 248.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 167.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 125.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 110.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 99.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 144.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 125.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 129.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 101.60ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 800 ----------------------
+Seed: 640000
+Serial average run time: 6181.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 982.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 498.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 335.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 253.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 216.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 191.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 286.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 249.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 224.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 203.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 1600 ----------------------
+Seed: 1280000
+Serial average run time: 12454.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 1963.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 996.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 671.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 503.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 430.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 375.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 563.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 497.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 517.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 407.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 3200 ----------------------
+Seed: 2560000
+Serial average run time: 24691.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 3934.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 1996.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1344.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 998.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 843.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 778.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 831.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 997.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 885.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 831.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 4800 ----------------------
+Seed: 3840000
+Serial average run time: 36634.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 5886.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 3318.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2060.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1576.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1263.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1174.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1737.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1546.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1559.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1261.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 800 x 6400 ----------------------
+Seed: 5120000
+Serial average run time: 49508.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 7841.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 3993.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2693.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 2011.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1732.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1546.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 2320.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 2070.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 2179.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1702.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 400 ----------------------
+Seed: 640000
+Serial average run time: 6192.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 997.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 498.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 333.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 249.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 204.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 189.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 176.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 249.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 223.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 204.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 800 ----------------------
+Seed: 1280000
+Serial average run time: 12352.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 1963.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 999.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 667.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 500.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 467.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 379.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 564.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 501.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 451.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 406.60ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 1600 ----------------------
+Seed: 2560000
+Serial average run time: 24691.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 3995.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 2004.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1344.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1004.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 848.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 758.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1134.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1034.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 935.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 838.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 3200 ----------------------
+Seed: 5120000
+Serial average run time: 49479.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 7874.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 4003.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2694.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 2037.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1743.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1595.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 2356.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 2080.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1879.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1686.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 4800 ----------------------
+Seed: 7680000
+Serial average run time: 74214.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 11773.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 6039.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 4421.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 3090.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 2626.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 2378.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 2184.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 3085.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 2838.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 2552.20ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 1600 x 6400 ----------------------
+Seed: 10240000
+Serial average run time: 98988.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 15719.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 7994.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 5334.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 4149.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 3508.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 3392.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 4468.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 4160.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 3765.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 3418.60ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 400 ----------------------
+Seed: 1280000
+Serial average run time: 12345.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 1967.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 1103.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 667.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 499.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 422.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 388.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 566.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 498.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 459.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 406.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 800 ----------------------
+Seed: 2560000
+Serial average run time: 24840.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 3956.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 2015.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1343.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1002.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 846.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 749.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1160.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1022.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 917.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 832.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 1600 ----------------------
+Seed: 5120000
+Serial average run time: 49528.80ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 7889.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 4041.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2680.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 2020.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1745.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1542.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 2358.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 2089.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1875.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1677.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 3200 ----------------------
+Seed: 10240000
+Serial average run time: 99007.00ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 15833.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 8014.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 5387.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 4240.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 3556.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 3133.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 4807.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 4207.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 3832.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 3401.20ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 4800 ----------------------
+Seed: 15360000
+Serial average run time: 149600.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 23697.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 12069.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 8019.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 6260.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 5292.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 4658.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 7115.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 6284.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 5674.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 5132.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 3200 x 6400 ----------------------
+Seed: 20480000
+Serial average run time: 201692.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 31361.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 15979.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 10754.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 8333.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 7800.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 6320.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 7181.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 8436.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 7557.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 6858.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 400 ----------------------
+Seed: 1920000
+Serial average run time: 18631.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 2973.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 1503.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1003.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 772.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 634.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 557.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 850.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 764.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 683.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 626.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 800 ----------------------
+Seed: 3840000
+Serial average run time: 37000.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 5967.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 3118.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2031.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1524.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1313.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1171.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1747.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1550.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1397.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1259.20ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 1600 ----------------------
+Seed: 7680000
+Serial average run time: 74223.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 11955.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 6030.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 4037.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 3078.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 2637.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 2555.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 3515.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 3126.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 2795.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 2549.40ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 3200 ----------------------
+Seed: 15360000
+Serial average run time: 148537.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 23674.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 12024.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 8009.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 6275.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 5319.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 4700.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 7103.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 6267.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 5688.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 5114.20ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 4800 ----------------------
+Seed: 23040000
+Serial average run time: 222813.40ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 35533.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 18065.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 12019.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 9358.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 8012.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 7175.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 10706.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 9473.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 8557.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 7839.20ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 4800 x 6400 ----------------------
+Seed: 30720000
+Serial average run time: 297053.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 47117.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 23993.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 16003.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 12410.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 10709.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 9455.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 11082.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 12620.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 11377.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 10340.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 400 ----------------------
+Seed: 2560000
+Serial average run time: 25274.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 3951.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 2008.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 1342.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 1013.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 852.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 756.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 1157.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 1017.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 915.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 833.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 800 ----------------------
+Seed: 5120000
+Serial average run time: 49519.80ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 7967.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 4052.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 2698.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 2056.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 1761.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 1526.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 2254.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 2079.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 1861.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 1684.80ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 1600 ----------------------
+Seed: 10240000
+Serial average run time: 99076.00ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 15822.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 8041.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 5366.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 4579.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 3570.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 3134.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 3995.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 4154.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 3755.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 3412.60ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 3200 ----------------------
+Seed: 20480000
+Serial average run time: 198808.20ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 31488.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 16010.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 10691.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 8372.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 7103.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 6304.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 9613.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 8422.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 7554.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 6844.60ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 4800 ----------------------
+Seed: 30720000
+Serial average run time: 299338.60ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 47183.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 23984.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 16472.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 12491.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 10723.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 9737.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 14260.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 12681.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 11369.40ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 10278.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------------------- Board <rows, columns>: 6400 x 6400 ----------------------
+Seed: 40960000
+Serial average run time: 396134.00ms
+
+
+Number of processes: 2 ----------------------
+Parallel average run time: 62810.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+Parallel average run time: 32075.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+Parallel average run time: 21378.20ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+Parallel average run time: 16622.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+Parallel average run time: 14297.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+Parallel average run time: 12576.80ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+Parallel average run time: 16732.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+Parallel average run time: 16881.60ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+Parallel average run time: 15179.00ms
+
+The serial and parallel outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+Parallel average run time: 13954.00ms
+
+The serial and parallel outputs are the same and correct!
+
+
+---------- Done! ----------

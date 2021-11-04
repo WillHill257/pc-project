@@ -36,8 +36,8 @@ cd $SLURM_SUBMIT_DIR
 # run the scripts
 
 # declare arrays
-declare -a dimensions=(400 800 1600 3200)
-declare -a numProcesses=(4 8 12 16)
+declare -a dimensions=(400 800 1600 3200 4800 6400)
+declare -a numProcesses=(2 4 6 8 10 12 14 16 18 20)
 generations=50
 
 for dimensionOne in "${dimensions[@]}"
