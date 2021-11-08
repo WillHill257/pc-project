@@ -22,7 +22,7 @@ General Idea:
 
 */
 
-const int averageIterations = 2;
+const int averageIterations = 5;
 const string inputPath = "graphs/";
 const string outputPath = "serial-output/";
 

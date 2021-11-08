@@ -1,3 +1,9 @@
 .vscode
-*output.txt
 *.tar
+
+# game of life
+*output.txt
+
+# dijsktra
+graphs/
+*output/
