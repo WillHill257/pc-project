@@ -48,11 +48,12 @@ then
   echo "Done MPI"
   echo
 
-  # echo "Running OpenMP"
-  # rm -f $ompOutput
-  # # ./omp $filename $startNode
-  # echo "Done OpenMP"
-  # echo
+  echo "Running OpenMP"
+  rm -f $ompOutput
+  export OMP_NUM_THREADS=$numProcs
+  ./omp $filename $startNode
+  echo "Done OpenMP"
+  echo
 fi
 
 # compare the serial and parallel outputs to VERIFY
@@ -69,13 +70,13 @@ then
   fi
 
   # check omp correctness
-  # DIFF=$(diff $serialOutput $ompOutput)
-  # if [ "$DIFF" ]
-  # then 
-  #   echo "The serial and OpenMP outputs are different!"
-  # else
-  #   echo "The serial and OpenMP outputs are the same and correct!"
-  # fi
+  DIFF=$(diff $serialOutput $ompOutput)
+  if [ "$DIFF" ]
+  then 
+    echo "The serial and OpenMP outputs are different!"
+  else
+    echo "The serial and OpenMP outputs are the same and correct!"
+  fi
 fi
 
 # clean up
