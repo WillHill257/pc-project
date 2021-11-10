@@ -36,7 +36,7 @@ cd $SLURM_SUBMIT_DIR
 # run the scripts
 
 # declare arrays
-declare -a numNodes=(2048 4096 8192 12288)
+declare -a numNodes=(2048 4096 6144 8192)
 declare -a densities=(35 90)
 declare -a numProcesses=(2 4 6 8 10 12 14 16 18 20)
 generations=50
