@@ -23,37 +23,37 @@ mpiOutput="mpi-output/${startNode}-${filename}"
 ompOutput="omp-output/${startNode}-${filename}"
 
 # make the serial and parallel versions
-echo "Making executables"
+# echo "Making executables"
 make clean
 make
-echo "Done making"
-echo
+# echo "Done making"
+# echo
 
 # run the serial version, pipe the output to the relevant file
 if [ $runSerial == "y" ]
 then
-  echo "Running serial"
+  # echo "Running serial"
   rm -f $serialOutput
   ./serial $filename $startNode
-  echo "Done serial"
-  echo
+  # echo "Done serial"
+  # echo
 fi
 
 # run the parallel version, pipe the output to the relevant file
 if [ $runParallel == "y" ]
 then
-  echo "Running MPI"
+  # echo "Running MPI"
   rm -f $mpiOutput
   mpirun -np $numProcs ./mpi $filename $startNode
-  echo "Done MPI"
-  echo
+  # echo "Done MPI"
+  # echo
 
-  echo "Running OpenMP"
+  # echo "Running OpenMP"
   rm -f $ompOutput
   export OMP_NUM_THREADS=$numProcs
   ./omp $filename $startNode
-  echo "Done OpenMP"
-  echo
+  # echo "Done OpenMP"
+  # echo
 fi
 
 # compare the serial and parallel outputs to VERIFY
