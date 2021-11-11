@@ -1,11 +1,10 @@
 .vscode
 *.tar
 *DS_Store*
-error
 
 # game of life
 *output.txt
 
 # dijsktra
 graphs/
-*-output/
+# *-output/
