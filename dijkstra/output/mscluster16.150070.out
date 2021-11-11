@@ -1,0 +1,524 @@
+----------------------------------------------------------------
+DATE: Wed Nov 10 23:20:41 SAST 2021
+Job is running on nodes mscluster16
+----------------------------------------------------------------
+SLURM: sbatch is running mscluster0.ms.wits.ac.za
+SLURM: job ID is 150070
+SLURM: submit directory is /home-mscluster/whill/pc/project/dijkstra
+SLURM: number of nodes allocated is 1
+SLURM: job name is dijkstra
+----------------------------------------------------------------
+
+---------------------- Graph <nodes, density>: 2048 x 0.35 ----------------------
+Serial average running time: 496.4ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 289.4ms
+OpenMP average running time: 266.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 158.8ms
+OpenMP average running time: 150.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 109.6ms
+OpenMP average running time: 108.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 84.4ms
+OpenMP average running time: 87.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 69.4ms
+OpenMP average running time: 75.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 60.4ms
+OpenMP average running time: 71.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 55.4ms
+OpenMP average running time: 73.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 67.4ms
+OpenMP average running time: 75.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 64.6ms
+OpenMP average running time: 71.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 61.6ms
+OpenMP average running time: 70.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 2048 x 0.90 ----------------------
+Serial average running time: 672ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 411.8ms
+OpenMP average running time: 357.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 226.2ms
+OpenMP average running time: 199ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 153.8ms
+OpenMP average running time: 143.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 115.4ms
+OpenMP average running time: 114ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 93ms
+OpenMP average running time: 97.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 79.4ms
+OpenMP average running time: 88.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 73.6ms
+OpenMP average running time: 90.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 87.8ms
+OpenMP average running time: 93.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 81.6ms
+OpenMP average running time: 89.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 79.2ms
+OpenMP average running time: 86ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 4096 x 0.35 ----------------------
+Serial average running time: 1977ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 1322.2ms
+OpenMP average running time: 1020.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 718ms
+OpenMP average running time: 584.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 497ms
+OpenMP average running time: 416.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 379.8ms
+OpenMP average running time: 321.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 310.4ms
+OpenMP average running time: 270.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 265.2ms
+OpenMP average running time: 238.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 238.8ms
+OpenMP average running time: 226.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 293ms
+OpenMP average running time: 252ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 273.6ms
+OpenMP average running time: 232.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 250.6ms
+OpenMP average running time: 218.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 4096 x 0.90 ----------------------
+Serial average running time: 2688.6ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 2115.4ms
+OpenMP average running time: 1373.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 1135.6ms
+OpenMP average running time: 783.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 776.6ms
+OpenMP average running time: 548.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 580.8ms
+OpenMP average running time: 434ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 472.6ms
+OpenMP average running time: 354.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 400ms
+OpenMP average running time: 308.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 354.8ms
+OpenMP average running time: 291.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 384ms
+OpenMP average running time: 322.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 358ms
+OpenMP average running time: 297.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 330.4ms
+OpenMP average running time: 279.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 6144 x 0.35 ----------------------
+Serial average running time: 4332.6ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 2966ms
+OpenMP average running time: 2212.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 1560.2ms
+OpenMP average running time: 1181.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 1059ms
+OpenMP average running time: 825.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 814.4ms
+OpenMP average running time: 643.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 667.4ms
+OpenMP average running time: 535.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 573.4ms
+OpenMP average running time: 472.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 510.4ms
+OpenMP average running time: 435.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 618.8ms
+OpenMP average running time: 483.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 571.8ms
+OpenMP average running time: 449.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 528.4ms
+OpenMP average running time: 425.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 6144 x 0.90 ----------------------
+Serial average running time: 5871.4ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 4826.4ms
+OpenMP average running time: 2982.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 2518ms
+OpenMP average running time: 1588.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 1691.2ms
+OpenMP average running time: 1102.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 1289.4ms
+OpenMP average running time: 848.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 1048.6ms
+OpenMP average running time: 699.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 874.6ms
+OpenMP average running time: 602.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 780.4ms
+OpenMP average running time: 562.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 810.4ms
+OpenMP average running time: 636ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 763.6ms
+OpenMP average running time: 585ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 701.4ms
+OpenMP average running time: 544.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 8192 x 0.35 ----------------------
+Serial average running time: 7954.2ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 5331ms
+OpenMP average running time: 4042.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 2959ms
+OpenMP average running time: 2295.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 2038.8ms
+OpenMP average running time: 1597.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 1555.2ms
+OpenMP average running time: 1227.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 1263.6ms
+OpenMP average running time: 1015.4ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 1071ms
+OpenMP average running time: 870.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 969.6ms
+OpenMP average running time: 812.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 1175.2ms
+OpenMP average running time: 897.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 1108.4ms
+OpenMP average running time: 808.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 1022ms
+OpenMP average running time: 751.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------------------- Graph <nodes, density>: 8192 x 0.90 ----------------------
+Serial average running time: 10780.4ms
+
+Number of processes: 2 ----------------------
+MPI average running time: 8853.4ms
+OpenMP average running time: 5476.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 4 ----------------------
+MPI average running time: 4771.2ms
+OpenMP average running time: 3076.8ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 6 ----------------------
+MPI average running time: 3281.6ms
+OpenMP average running time: 2159.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 8 ----------------------
+MPI average running time: 2475.8ms
+OpenMP average running time: 1645.6ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 10 ----------------------
+MPI average running time: 1988ms
+OpenMP average running time: 1356ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 12 ----------------------
+MPI average running time: 1697.2ms
+OpenMP average running time: 1154.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 14 ----------------------
+MPI average running time: 1482.8ms
+OpenMP average running time: 1067.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 16 ----------------------
+MPI average running time: 1599.2ms
+OpenMP average running time: 1205.2ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 18 ----------------------
+MPI average running time: 1512ms
+OpenMP average running time: 1089ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+Number of processes: 20 ----------------------
+MPI average running time: 1386.8ms
+OpenMP average running time: 1011ms
+The serial and MPI outputs are the same and correct!
+The serial and OpenMP outputs are the same and correct!
+
+
+---------- Done! ----------

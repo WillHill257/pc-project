@@ -22,7 +22,7 @@ ${p3}: ${p3}.cpp
 	@mpicxx -std=c++11 ${p3}.cpp -o ${p3}
 
 ${p4}: ${p4}.cpp
-	${cc} -std=c++11 -fopenmp ${p4}.cpp -o ${p4}
+	@${cc} -std=c++11 -fopenmp ${p4}.cpp -o ${p4}
 
 clean:
 	@rm -rf ${p1} ${p2} ${p3} ${p3}.dSYM ${p4} ${p4}.dSYM
