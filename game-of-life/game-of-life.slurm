@@ -42,20 +42,17 @@ generations=50
 
 for dimensionOne in "${dimensions[@]}"
 do
-  for dimensionTwo in "${dimensions[@]}"
+  seed=$(($dimensionOne * $dimensionOne))
+  echo ""
+  echo "---------------------- Board <rows, columns>: ${dimensionOne} x ${dimensionOne} ----------------------" 
+  echo "Seed: ${seed}"
+  ./run.sh ${dimensionOne} ${dimensionOne} ${seed} ${generations} 1 y n
+  echo ""
+  for numProcess in "${numProcesses[@]}"
   do
-    seed=$(($dimensionOne * $dimensionTwo))
+    echo "Number of processes: ${numProcess} ----------------------"
+    ./run.sh ${dimensionOne} ${dimensionOne} ${seed} ${generations} ${numProcess} n y
     echo ""
-    echo "---------------------- Board <rows, columns>: ${dimensionOne} x ${dimensionTwo} ----------------------" 
-    echo "Seed: ${seed}"
-    ./run.sh ${dimensionOne} ${dimensionTwo} ${seed} ${generations} 1 y n
-    echo ""
-    for numProcess in "${numProcesses[@]}"
-    do
-      echo "Number of processes: ${numProcess} ----------------------"
-      ./run.sh ${dimensionOne} ${dimensionTwo} ${seed} ${generations} ${numProcess} n y
-      echo ""
-    done
   done
 done
 
